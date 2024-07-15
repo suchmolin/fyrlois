@@ -1,0 +1,8 @@
+.top {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+    background: #f3f4f6;
+  }
+  .bottom {
+    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+    margin-top: -40px;
+  }
