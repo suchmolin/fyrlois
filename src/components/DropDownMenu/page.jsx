@@ -1,12 +1,12 @@
-"use client";
-import { Dropdown, Link } from "flowbite-react";
+"use client"
+import { Dropdown } from "flowbite-react"
 
-import { TfiWorld } from "react-icons/tfi";
-import { RiArrowDropDownLine } from "react-icons/ri";
-import Image from "next/image";
+import { TfiWorld } from "react-icons/tfi"
+import Link from "next/link"
+import Image from "next/image"
 
 export default function DropDownMenu() {
-  const label = <TfiWorld className="text-2xl text-[#000b7a]" />;
+  const label = <TfiWorld className="text-2xl text-[#000b7a]" />
 
   return (
     <>
@@ -35,5 +35,5 @@ export default function DropDownMenu() {
         </Dropdown.Item>
       </Dropdown>
     </>
-  );
+  )
 }

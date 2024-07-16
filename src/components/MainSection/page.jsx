@@ -7,10 +7,12 @@ export default function MainSection() {
       <div className="relative w-full flex justify-center lg:justify-end">
         <Image
           className="absolute top-0 left-0 hidden lg:block"
-          src="/img/imagen2.png"
+          src="/img/222.png"
           alt="baner1"
           width={200}
           height={150}
+          priority
+          unoptimized
         />
         <div className="w-9/12 lg:w-8/12 flex flex-col justify-center font-[lato] bg-transparent">
           <Image
@@ -19,10 +21,12 @@ export default function MainSection() {
             alt="baner1"
             width={350}
             height={150}
+            priority
+            unoptimized
           />
           <h1 className="text-[#9de800] text-3xl leading-relaxed">
             <i>
-              Comienza1 a hacer realidad tu <b>proyecto de vida.</b>
+              Comienza a hacer realidad tu <b>proyecto de vida.</b>
             </i>
           </h1>
           <h2 className="text-[#000b7a] text-2xl leading-relaxed py-4">
