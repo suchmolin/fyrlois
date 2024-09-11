@@ -1,8 +1,13 @@
+import EtapasAE from "@/components/anoEscComps/EtapasAE/page"
+import HeaderAE from "@/components/anoEscComps/HeaderAE/page"
+import SocialMenuAE from "@/components/anoEscComps/SocialMenuAE/page"
+
 export default function AnoEscolarPage() {
   return (
-    <div>
-      <h1>Ano Escolar</h1>
-      <p>Esta página está em construção.</p>
-    </div>
+    <main className="font-[Eastman] ">
+      <HeaderAE />
+      <EtapasAE />
+      <SocialMenuAE />
+    </main>
   )
 }

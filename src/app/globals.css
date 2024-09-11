@@ -13,6 +13,18 @@
     font-family: 'latobold';
     src: url('/fonts/Lato-Bold.ttf');
   }
+  @font-face {
+    font-family: 'Eastman';
+    src: url('/fonts/EastmanRomanRegular.otf');
+  }
+  @font-face {
+    font-family: 'EastmanBold';
+    src: url('/fonts/EastmanRomanBold.otf');
+  }
+  @font-face {
+    font-family: 'Londrina';
+    src: url('/fonts/LondrinaSolid-Regular.otf');
+  }
 
 .mainFondo{
     background-image: url("/img/fondo-1.png");
