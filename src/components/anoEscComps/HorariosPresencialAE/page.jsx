@@ -22,7 +22,7 @@ export default function HorariosPresencialAE() {
           <p className="text-[#000b7a] text-2xl font-[EastmanBold] py-1">
             Martes y Jueves
           </p>
-          <div className="py-10 px-5 flex flex-col justify-center rounded-lg bg-[#cdea80] min-h-[188px]">
+          <div className="py-10 px-10 flex flex-col justify-center rounded-lg bg-[#cdea80] min-h-[188px]">
             <p className="font-[EastmanBold] text-3xl text-gray-700">
               2:00 - 3:20 pm
             </p>
@@ -56,7 +56,7 @@ export default function HorariosPresencialAE() {
           <p className="text-[#000b7a] text-2xl font-[EastmanBold] py-1">
             Sábados
           </p>
-          <div className="py-10 px-5 flex flex-col justify-center rounded-lg bg-[#cdea80] min-h-[188px]">
+          <div className="py-10 px-10 flex flex-col justify-center rounded-lg bg-[#cdea80] min-h-[188px]">
             <p className="font-[EastmanBold] text-3xl text-gray-700">
               9:00 - 12:00 pm
             </p>

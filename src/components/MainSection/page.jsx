@@ -1,6 +1,6 @@
 "use client"
 import SelectCountry from "@/components/SelectCountry/page"
-import Image from "next/image"
+import Image from "next/legacy/image"
 export default function MainSection() {
   return (
     <div className="relative mainSec h-[640px] flex">

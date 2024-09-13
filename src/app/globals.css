@@ -15,7 +15,7 @@
   }
   @font-face {
     font-family: 'Eastman';
-    src: url('/fonts/EastmanRomanRegular.otf');
+    src: url('/fonts/Eastman-Regular.ttf');
   }
   @font-face {
     font-family: 'EastmanBold';
@@ -31,3 +31,4 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+textarea { resize: none; }

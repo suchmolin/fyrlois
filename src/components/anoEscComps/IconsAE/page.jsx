@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 export default function IconsAE() {
   return (
@@ -7,15 +7,25 @@ export default function IconsAE() {
         <Image
           src="/img/AE/iconohello.png"
           alt="icon"
-          fill
+          layout="fill"
           objectFit="contain"
         />
       </div>
       <div className="w-[80px] h-[80px] relative">
-        <Image src="/img/AE/bombillo.png" alt="icon" fill objectFit="contain" />
+        <Image
+          src="/img/AE/bombillo.png"
+          alt="icon"
+          layout="fill"
+          objectFit="contain"
+        />
       </div>
       <div className="w-[80px] h-[80px] relative">
-        <Image src="/img/AE/flecha.png" alt="icon" fill objectFit="contain" />
+        <Image
+          src="/img/AE/flecha.png"
+          alt="icon"
+          layout="fill"
+          objectFit="contain"
+        />
       </div>
     </div>
   )

@@ -1,3 +1,4 @@
+"use client"
 import CardDescEtapaAE from "../CardDescEtapaAE/page"
 
 export default function DescEtapasAE() {
@@ -24,12 +25,12 @@ export default function DescEtapasAE() {
 
   return (
     <div className="w-full min-h-screen flex justify-center items-center bg-[#f0f0f1] py-10 bg-[url('/img/AE/school2.png')] bg-contain bg-no-repeat bg-right">
-      <div className="w-10/12 flex flex-col gap-10">
+      <div className="w-11/12 lg:w-10/12 flex flex-col gap-10">
         <CardDescEtapaAE
           icon="/img/AE/bombillo.png"
           color="#cdea80"
           titulo="Kids (3 a 5 años)"
-          img="/img/AE/verde.png"
+          img="/img/AE/nino.png"
           items={Desciptions.kids}
         />
         <CardDescEtapaAE

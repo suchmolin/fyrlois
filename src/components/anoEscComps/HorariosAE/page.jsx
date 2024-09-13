@@ -29,7 +29,7 @@ export default function HorariosAE() {
           </button>
         </div>
         <div className="w-full flex justify-center py-10">
-          <div className="relative w-10/12 min-h-[600px] bg-[#f0f0f1] rounded-xl px-20 py-5 justify-center items-center">
+          <div className="relative w-10/12 min-h-[600px] bg-[url('/img/AE/cuadro-horario.png')] bg-cover bg-center bg-no-repeat rounded-xl px-20 py-5 justify-center items-center">
             {selector === "presencial" ? (
               <HorariosPresencialAE />
             ) : (
