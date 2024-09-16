@@ -7,9 +7,11 @@ export default function CardEtapaAE({
   colorEdades,
   imagen,
   tituloSize,
+  idref,
 }) {
   return (
-    <div
+    <a
+      href={`#${idref}`}
       className={`w-[280px] xl:w-[350px] relative h-[350px] xl:min-h-[500px] rounded-lg bg-${fondo} flex justify-center items-center cursor-pointer hover:scale-[1.02] hover:shadow-lg shadow-[#000b7a] transition-all duration-300`}
     >
       <div className="relative w-11/12 h-full xl:mt-6">
@@ -34,6 +36,6 @@ export default function CardEtapaAE({
           {edades}
         </div>
       </div>
-    </div>
+    </a>
   )
 }

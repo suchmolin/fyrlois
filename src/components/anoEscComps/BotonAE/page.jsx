@@ -9,7 +9,7 @@ export default function BotonAE({
 }) {
   return (
     <a
-      href="#"
+      href="#contacto"
       className={`comienzaAhora flex justify-center items-center mt-10 bg-[${color2}] rounded-xl overflow-hidden text-2xl font-[EastmanBold] hover:bg-[${colorHover}] transition-all duration-300`}
     >
       <span

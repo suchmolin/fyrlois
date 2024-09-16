@@ -12,7 +12,7 @@ export default function FooterAE() {
       titulo: "Caracas (CCCT)",
       img: "/img/AE/ccctmap.png",
       direccion:
-        "Centro Ciudad Comercial Tamanaco (CCCT), Sector Yarey, ñpcañ PB 005",
+        "Centro Ciudad Comercial Tamanaco (CCCT), Sector Yarey, lopcal PB 005",
       redir:
         "https://www.google.com/maps/place/Centro+Ciudad+Comercial+Tamanaco+-+CCCT/@10.4851878,-66.8577643,17z/data=!3m1!4b1!4m6!3m5!1s0x8c2a58562d6be2f7:0x68c1b72d71c1d7d6!8m2!3d10.4851825!4d-66.8551894!16s%2Fg%2F11b60rx05d?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D",
     },
@@ -64,8 +64,8 @@ export default function FooterAE() {
   )
   return (
     <>
-      <div className="w-full min-h-[250px] flex bg-[#f0f0f1] px-20 py-16">
-        <div className="w-3/12">
+      <div className="w-full min-h-[250px] flex flex-col sm:flex-row bg-[#f0f0f1] px-10 xl:px-20 py-16">
+        <div className="w-3/12 hidden lg:block">
           <Image
             className="hover:scale-105 transition-all duration-300 cursor-pointer"
             src="/img/1.png"
@@ -74,7 +74,7 @@ export default function FooterAE() {
             height={80}
           />
         </div>
-        <div className="w-2/12">
+        <div className="w-3/12 lg:w-2/12 pb-5 sm:pb-0">
           <h4 className="font-[EastmanBold] mb-3">Navegación</h4>
           <ul className="text-sm flex flex-col gap-3">
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
@@ -91,7 +91,7 @@ export default function FooterAE() {
             </li>
           </ul>
         </div>
-        <div className="w-4/12">
+        <div className="w-11/12 sm:w-6/12 lg:w-4/12 pb-5 sm:pb-0">
           <h4 className="font-[EastmanBold] mb-3">Contáctanos</h4>
           <p>0212 959 3681 CCCT</p>
           <p>
@@ -99,7 +99,7 @@ export default function FooterAE() {
             PB 005
           </p>
         </div>
-        <div className="w-3/12">
+        <div className="w-3/12 pb-5 sm:pb-0">
           <h4 className="font-[EastmanBold] mb-3">Dirección</h4>
           <div className="bg-[#cdea80] w-fit py-2 px-4 rounded-md hover:font-bold transition-all duration-300">
             <Dropdown inline label="Sedes" dismissOnClick={false}>
@@ -127,7 +127,7 @@ export default function FooterAE() {
           </div>
         </div>
       </div>
-      <div className="w-full min-h-[70px] flex justify-between items-center bg-[#f0f0f1] px-20">
+      <div className="w-full min-h-[70px] flex  flex-col-reverse sm:flex-row justify-between items-center bg-[#f0f0f1] px-4 sm:px-20">
         <p className="text-sm">© 2024 Fyr Lois. All Right Reserved.</p>
         <div className="flex gap-4 text-2xl items-center">
           <a

@@ -3,11 +3,18 @@ import Image from "next/legacy/image"
 import { IoArrowForwardCircleOutline } from "react-icons/io5"
 import { FaSquare } from "react-icons/fa"
 
-export default function CardDescEtapaAE({ icon, color, titulo, img, items }) {
+export default function CardDescEtapaAE({
+  icon,
+  color,
+  titulo,
+  img,
+  items,
+  id,
+}) {
   console.log({ color })
 
   return (
-    <div className="w-full flex">
+    <div id={id} className="w-full flex">
       <div className="hidden lg:flex w-2/12 justify-center items-center">
         <Image
           className="-rotate-[20deg]"
@@ -42,9 +49,9 @@ export default function CardDescEtapaAE({ icon, color, titulo, img, items }) {
               </div>
             ))}
           </ul>
-          <div className="w-full flex justify-end pt-5 pr-10">
+          <div className="w-full flex justify-center pt-5 ">
             <a
-              href="#"
+              href="#contacto"
               className="flex sm:hidden w-fit justify-between items-center px-2 bg-[#f0f0f1] py-1 rounded-full text-[#000b7a] hover:scale-105 transition-all duration-300"
             >
               Comenzar
@@ -69,7 +76,7 @@ export default function CardDescEtapaAE({ icon, color, titulo, img, items }) {
             />
             <div className="w-full absolute bottom-5 flex justify-center">
               <a
-                href="#"
+                href="#contacto"
                 className="flex justify-between items-center px-2 bg-[#f0f0f1] py-1 rounded-full text-[#000b7a] hover:scale-105 transition-all duration-300"
               >
                 Comenzar

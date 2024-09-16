@@ -2,7 +2,10 @@ import CardEtapaAE from "../CardEtapaAE/page"
 
 export default function EtapasAE() {
   return (
-    <div className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-32 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom">
+    <div
+      id="programas"
+      className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-32 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom"
+    >
       <div className="w-11/12 xl:w-10/12">
         <h2 className="text-3xl sm:text-4xl text-[#000b7a] font-[EastmanBold] flex flex-col leading-9">
           Acompañamiento <span>académico</span>
@@ -18,6 +21,7 @@ export default function EtapasAE() {
             colorEdades="#cdea80"
             imagen="nino.png"
             tituloSize="text-3xl xl:text-5xl"
+            idref="kidsdesc"
           />
           <CardEtapaAE
             fondo="[#f37eb5]"
@@ -26,6 +30,7 @@ export default function EtapasAE() {
             colorEdades="#f37eb5"
             imagen="azul.png"
             tituloSize="text-2xl xl:text-4xl"
+            idref="elementarydesc"
           />
           <CardEtapaAE
             fondo="[#fbd874]"
@@ -34,6 +39,7 @@ export default function EtapasAE() {
             colorEdades="#cdea80"
             imagen="rosada.png"
             tituloSize="text-2xl xl:text-4xl"
+            idref="highschooldesc"
           />
         </div>
       </div>

@@ -26,6 +26,9 @@
     src: url('/fonts/LondrinaSolid-Regular.otf');
   }
 
+  *{
+    scroll-behavior: smooth;
+  }
 .mainFondo{
     background-image: url("/img/fondo-1.png");
     background-size: cover;

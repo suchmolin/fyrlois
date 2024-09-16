@@ -3,7 +3,7 @@ import { Textarea, TextInput } from "flowbite-react"
 export default function FormContactoAE() {
   return (
     <div className="w-full flex items-center justify-center">
-      <form className="formContactanosAE w-9/12 bg-[#cdea80] rounded-xl py-14 px-7 font-[EastmanBold] flex flex-col gap-7 justify-center items-center shadow-xl">
+      <form className="formContactanosAE w-full sm:w-9/12 bg-[#cdea80] rounded-xl py-14 px-7 font-[EastmanBold] flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl">
         <TextInput
           className="w-full"
           required
