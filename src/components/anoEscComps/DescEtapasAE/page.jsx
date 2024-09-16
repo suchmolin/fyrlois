@@ -7,10 +7,10 @@ import Image from "next/image"
 export default function DescEtapasAE() {
   const Desciptions = {
     kids: [
-      "Metodoligía divertida, pensada para su etapa de aprendizaje.",
+      "Metodología divertida, pensada para su etapa de aprendizaje.",
       "Aprovecha la plasticidad de su cerebro para aprender el idioma",
       "Amplía su conocimiento del mundo, cultura y colerancia.",
-      "Logra una pronunciación más precisa del inglésa temprana edad.",
+      "Logra una pronunciación más precisa del inglés a temprana edad.",
     ],
     elementary: [
       "Mejora su rendimiento académico del colegio.",
@@ -50,7 +50,7 @@ export default function DescEtapasAE() {
               >
                 Kids (3 a 5 años)
               </h3>
-              <ul>
+              <div>
                 {Desciptions.kids.map((item, i) => (
                   <div key={i} className="flex gap-4 items-center mt-1 md:mt-4">
                     <div
@@ -58,15 +58,15 @@ export default function DescEtapasAE() {
                     >
                       <FaSquare />
                     </div>
-                    <li
+                    <p
                       key={`parrafo${i}`}
                       className="text-sm md:text-base flex items-center justify-start"
                     >
                       {item}
-                    </li>
+                    </p>
                   </div>
                 ))}
-              </ul>
+              </div>
               <div className="w-full flex justify-center pt-5 ">
                 <a
                   href="#contacto"

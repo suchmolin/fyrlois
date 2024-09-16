@@ -75,24 +75,24 @@ export default function FooterAE() {
           />
         </div>
         <div className="w-3/12 lg:w-2/12 pb-5 sm:pb-0">
-          <h4 className="font-[EastmanBold] mb-3">Navegación</h4>
+          <h2 className="font-[EastmanBold] mb-3">Navegación</h2>
           <ul className="text-sm flex flex-col gap-3">
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
               <a href="#">Inicio</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Horarios</a>
+              <a href="#horarios">Horarios</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Conócenos</a>
+              <a href="#conocenos">Conócenos</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Contáctanos</a>
+              <a href="#contacto">Contáctanos</a>
             </li>
           </ul>
         </div>
         <div className="w-11/12 sm:w-6/12 lg:w-4/12 pb-5 sm:pb-0">
-          <h4 className="font-[EastmanBold] mb-3">Contáctanos</h4>
+          <h2 className="font-[EastmanBold] mb-3">Contáctanos</h2>
           <p>0212 959 3681 CCCT</p>
           <p>
             Centro Ciudad Comercial Tamanaco <br /> (CCCT), Sector Yarey, local
@@ -100,7 +100,7 @@ export default function FooterAE() {
           </p>
         </div>
         <div className="w-3/12 pb-5 sm:pb-0">
-          <h4 className="font-[EastmanBold] mb-3">Dirección</h4>
+          <h2 className="font-[EastmanBold] mb-3">Dirección</h2>
           <div className="bg-[#cdea80] w-fit py-2 px-4 rounded-md hover:font-bold transition-all duration-300">
             <Dropdown inline label="Sedes" dismissOnClick={false}>
               {data.map((item, i) => (
@@ -132,24 +132,28 @@ export default function FooterAE() {
         <div className="flex gap-4 text-2xl items-center">
           <a
             href="#"
+            aria-label="Whatsapp"
             className="hover:scale-110 hover:text-green-500 transition-all duration-300"
           >
             <FaWhatsapp />
           </a>
           <a
             href="#"
+            aria-label="Instagram"
             className="hover:scale-110 hover:text-orange-400 transition-all duration-300"
           >
             <FaInstagram />
           </a>
           <a
             href="#"
+            aria-label="Linkedin"
             className="hover:scale-110 hover:text-blue-400 transition-all duration-300"
           >
             <LiaLinkedin className="text-3xl" />
           </a>
           <a
             href="#"
+            aria-label="Facebook"
             className="hover:scale-110 hover:text-blue-500 transition-all duration-300"
           >
             <LiaFacebookSquare className="text-3xl" />

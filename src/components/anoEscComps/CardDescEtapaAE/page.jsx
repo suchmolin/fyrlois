@@ -11,8 +11,6 @@ export default function CardDescEtapaAE({
   items,
   id,
 }) {
-  console.log({ color })
-
   return (
     <div id={id} className="w-full flex">
       <div className="hidden lg:flex w-2/12 justify-center items-center">
@@ -32,7 +30,7 @@ export default function CardDescEtapaAE({
           >
             {titulo}
           </h3>
-          <ul>
+          <div>
             {items.map((item, i) => (
               <div key={i} className="flex gap-4 items-center mt-1 md:mt-4">
                 <div
@@ -40,15 +38,15 @@ export default function CardDescEtapaAE({
                 >
                   <FaSquare />
                 </div>
-                <li
+                <p
                   key={`parrafo${i}`}
                   className="text-sm md:text-base flex items-center justify-start"
                 >
                   {item}
-                </li>
+                </p>
               </div>
             ))}
-          </ul>
+          </div>
           <div className="w-full flex justify-center pt-5 ">
             <a
               href="#contacto"
