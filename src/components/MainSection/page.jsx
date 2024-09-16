@@ -5,25 +5,30 @@ export default function MainSection() {
   return (
     <div className="relative mainSec h-[640px] flex">
       <div className="relative w-full flex justify-center lg:justify-end">
-        <Image
-          className="absolute top-0 left-0 hidden lg:block"
-          src="/img/222.png"
-          alt="baner1"
-          width={200}
-          height={150}
-          priority
-          unoptimized
-        />
+        <div className="absolute top-0 left-0">
+          <div className="relative w-[150px] h-[150px]">
+            <Image
+              src="/img/222.png"
+              alt="baner1"
+              layout="fill"
+              objectFit="contain"
+              priority
+              unoptimized
+            />
+          </div>
+        </div>
         <div className="w-9/12 lg:w-8/12 flex flex-col justify-center font-[lato] bg-transparent">
-          <Image
-            className="md:ml-10"
-            src="/img/2.png"
-            alt="baner1"
-            width={350}
-            height={150}
-            priority
-            unoptimized
-          />
+          <div className="relative w-[320px] h-[150px]">
+            <Image
+              className="md:ml-10"
+              src="/img/2.png"
+              alt="baner1"
+              layout="fill"
+              objectFit="contain"
+              priority
+              unoptimized
+            />
+          </div>
           <h1 className="text-[#9de800] text-3xl leading-relaxed">
             <i>
               Comienza a hacer realidad tu <b>proyecto de vida.</b>
