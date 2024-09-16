@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import DropDownMenu from "../DropDownMenu/page";
 
 export default function NavBar() {

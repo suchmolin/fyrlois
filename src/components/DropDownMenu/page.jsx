@@ -3,7 +3,7 @@ import { Dropdown } from "flowbite-react"
 
 import { TfiWorld } from "react-icons/tfi"
 import Link from "next/link"
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 export default function DropDownMenu() {
   const label = <TfiWorld className="text-2xl text-[#000b7a]" />

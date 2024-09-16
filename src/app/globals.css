@@ -13,12 +13,25 @@
     font-family: 'latobold';
     src: url('/fonts/Lato-Bold.ttf');
   }
+  @font-face {
+    font-family: 'Eastman';
+    src: url('/fonts/Eastman-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'EastmanBold';
+    src: url('/fonts/Eastman-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Londrina';
+    src: url('/fonts/LondrinaSolid-Regular.otf');
+  }
 
+  *{
+    scroll-behavior: smooth;
+  }
 .mainFondo{
     background-image: url("/img/fondo-1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
-    
 }
+textarea { resize: none; }
