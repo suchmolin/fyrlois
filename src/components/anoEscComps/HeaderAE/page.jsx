@@ -11,7 +11,7 @@ export default function HeaderAE() {
   return (
     <header className="relative bg-[url('/img/AE/linear.png')] bg-no-repeat bg-bottom w-full lg:min-h-[130vh] flex flex-col bg-[#f0f0f0] pb-10">
       <NavBarAE />
-      <div className="relative w-full h-full flex  flex-row mt-5 lg:mt-0">
+      <div className="relative w-full h-full flex  flex-row mt-10 lg:mt-0">
         <div className="w-full lg:w-4/12 xl:w-3/12 2xl:w-6/12 flex flex-col items-center mt-20 lg:mt-48 lg:ml-20 xl:ml-48 2xl:ml-20 ">
           <div className="flex flex-col items-center -rotate-6">
             <IconsAE />
