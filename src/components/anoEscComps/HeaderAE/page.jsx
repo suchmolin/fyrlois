@@ -18,7 +18,7 @@ export default function HeaderAE() {
             <h1 className="text-4xl sm:text-5xl xl:text-7xl text-[#000b7a] text-center font-[EastmanBold] flex flex-col">
               Impulsa el <br />
               <span className="text-5xl sm:text-6xl xl:text-8xl">
-                bilingüismo1
+                bilingüismo
               </span>
               <span className="font-[Londrina] text-6xl sm:text-7xl xl:text-8xl text-[#f37eb5]">
                 de tu hijo

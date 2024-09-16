@@ -11,8 +11,6 @@ export default function CardDescEtapaAE({
   items,
   id,
 }) {
-  console.log({ color })
-
   return (
     <div id={id} className="w-full flex">
       <div className="hidden lg:flex w-2/12 justify-center items-center">

@@ -81,13 +81,13 @@ export default function FooterAE() {
               <a href="#">Inicio</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Horarios</a>
+              <a href="#horarios">Horarios</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Conócenos</a>
+              <a href="#conocenos">Conócenos</a>
             </li>
             <li className="hover:text-[#00b7a] hover:font-bold transition-all duration-300">
-              <a href="#">Contáctanos</a>
+              <a href="#contacto">Contáctanos</a>
             </li>
           </ul>
         </div>

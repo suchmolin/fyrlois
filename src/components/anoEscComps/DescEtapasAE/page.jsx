@@ -7,10 +7,10 @@ import Image from "next/image"
 export default function DescEtapasAE() {
   const Desciptions = {
     kids: [
-      "Metodoligía divertida, pensada para su etapa de aprendizaje.",
+      "Metodología divertida, pensada para su etapa de aprendizaje.",
       "Aprovecha la plasticidad de su cerebro para aprender el idioma",
       "Amplía su conocimiento del mundo, cultura y colerancia.",
-      "Logra una pronunciación más precisa del inglésa temprana edad.",
+      "Logra una pronunciación más precisa del inglés a temprana edad.",
     ],
     elementary: [
       "Mejora su rendimiento académico del colegio.",
