@@ -16,7 +16,7 @@ export default function ContactanosAE() {
             Año <br /> Escolar
           </h2>
           <div className="w-full flex justify-center z-0">
-            <div className="py-2 px-3 bg-[#cdea80] font-[EastmanBold] text-white text-5xl lg:text-6xl mt-1 -rotate-3 rounded-lg lg:-ml-32">
+            <div className="py-2 px-3 bg-[#fbd874] font-[EastmanBold] text-white text-5xl lg:text-6xl mt-1 -rotate-3 rounded-lg lg:-ml-32">
               <p>2024</p>
               <p>2025</p>
             </div>
