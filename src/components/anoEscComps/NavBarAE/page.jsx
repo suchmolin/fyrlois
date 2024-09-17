@@ -12,7 +12,13 @@ export default function NavBarAE() {
           href="#"
           className="relative lg:absolute lg:left-[100px] xl:left-[150px] 2xl:left-[200px] top-[5px] sm:top-[15px] hover:scale-105 transition-all duration-300"
         >
-          <Image src="/img/1.png" alt="Fyr Lois" width={190} height={86} />
+          <Image
+            src="/img/1.png"
+            alt="Fyr Lois"
+            width={190}
+            height={86}
+            priority
+          />
         </a>
         <ul className="hidden relative sm:flex sm:h-full gap-4 sm:gap-10 font-[EastmanBold] text-[#000b7a] text-xs  xs:text-sm sm:text-xl lg:text-base xl:text-xl lg:ml-20 2xl:ml-0 mt-4 lg:mt-0">
           <li className="h-full flex items-center">

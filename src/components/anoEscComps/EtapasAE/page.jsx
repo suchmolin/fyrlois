@@ -19,7 +19,7 @@ export default function EtapasAE() {
             titulo="Kids"
             edades="3 a 5 años"
             colorEdades="#cdea80"
-            imagen="nino.png"
+            imagen="nino.webp"
             tituloSize="text-3xl xl:text-5xl"
             idref="kidsdesc"
           />
@@ -37,7 +37,7 @@ export default function EtapasAE() {
             titulo="High School"
             edades="12 a 16 años."
             colorEdades="#cdea80"
-            imagen="rosada.png"
+            imagen="rosada.webp"
             tituloSize="text-2xl xl:text-4xl"
             idref="highschooldesc"
           />

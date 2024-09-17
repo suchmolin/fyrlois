@@ -9,6 +9,7 @@ export default function IconsAE() {
           alt="icon"
           layout="fill"
           objectFit="contain"
+          priority
         />
       </div>
       <div className="w-[40px] sm:w-[80px] h-[40px] sm:h-[80px] relative">
@@ -17,6 +18,7 @@ export default function IconsAE() {
           alt="icon"
           layout="fill"
           objectFit="contain"
+          priority
         />
       </div>
       <div className="w-[40px] sm:w-[80px] h-[40px] sm:h-[80px] relative">
@@ -25,6 +27,7 @@ export default function IconsAE() {
           alt="icon"
           layout="fill"
           objectFit="contain"
+          priority
         />
       </div>
     </div>

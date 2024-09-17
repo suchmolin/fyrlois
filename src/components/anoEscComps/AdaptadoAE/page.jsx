@@ -9,7 +9,7 @@ export default function AdaptadoAE() {
             <p className="text-6xl sm:text-8xl">3</p>
             <p className="text-xl sm:text-3xl -rotate-12">Lapsos</p>
           </div>
-          <div className="w-[90px] xs:w-[100px] sm:w-[150px] h-[200px] sm:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+          <div className="w-[90px] xs:w-[100px] sm:w-[150px] h-[200px] sm:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
             <p className="text-6xl sm:text-8xl">10</p>
             <p className="text-xl sm:text-3xl -rotate-12">Meses</p>
           </div>

@@ -93,7 +93,7 @@ export default function FooterAE() {
         </div>
         <div className="w-11/12 sm:w-6/12 lg:w-4/12 pb-5 sm:pb-0">
           <h2 className="font-[EastmanBold] mb-3">Contáctanos</h2>
-          <p>0212 959 3681 CCCT</p>
+          <p>0212 959 3681 - CCCT</p>
           <p>
             Centro Ciudad Comercial Tamanaco <br /> (CCCT), Sector Yarey, local
             PB 005

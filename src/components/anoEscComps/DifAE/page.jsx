@@ -15,7 +15,7 @@ export default function DifAE() {
             años de <br /> experiencia.
           </p>
         </div>
-        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
           <p className="text-[10px] lg:text-base text-white leading-[20px]">
             Comunicacional <br /> y vivencial.
           </p>
@@ -32,7 +32,7 @@ export default function DifAE() {
             Común <br /> Europeo
           </p>
         </div>
-        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
           <p className="text-white text-4xl lg:text-5xl">100</p>
           <p className=" leading-[20px] text-2xl lg:text-3xl">Celtas.</p>
           <p className="text-xs lg:text-base text-white leading-[15px]">
