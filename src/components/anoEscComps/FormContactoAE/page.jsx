@@ -10,7 +10,13 @@ export default function FormContactoAE() {
 
     const response = await fetch(urlodoo, {
       method: "POST",
-      body: JSON.stringify({ data: "data" }),
+      headers: {
+        "Content-Type": "application/json",
+        Connection: "keep-alive",
+        "Accept-Encoding": "gzip, deflate, br",
+        Accept: "*/*",
+      },
+      body: JSON.stringify({ msg: "qwe" }),
     })
 
     console.log(response.body)
