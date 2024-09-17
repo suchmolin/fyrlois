@@ -1,10 +1,12 @@
 import { Button, Dropdown, Popover } from "flowbite-react"
-import { redirect } from "next/dist/server/api-utils"
+
 import Image from "next/legacy/image"
 import { FaWhatsapp } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { LiaLinkedin } from "react-icons/lia"
 import { LiaFacebookSquare } from "react-icons/lia"
+import { FaPhoneAlt } from "react-icons/fa"
+import { FaMapMarkerAlt } from "react-icons/fa"
 
 export default function FooterAE() {
   const data = [
@@ -93,8 +95,11 @@ export default function FooterAE() {
         </div>
         <div className="w-11/12 sm:w-6/12 lg:w-4/12 pb-5 sm:pb-0">
           <h2 className="font-[EastmanBold] mb-3">Contáctanos</h2>
-          <p>0212 959 3681 - CCCT</p>
-          <p>
+          <p className="flex gap-2 items-center mb-2">
+            <FaPhoneAlt className=" text-[#000b7a]" /> 0212 959 3681
+          </p>
+          <p className="flex gap-2 items-center">
+            <FaMapMarkerAlt className=" text-[#000b7a]" />
             Centro Ciudad Comercial Tamanaco <br /> (CCCT), Sector Yarey, local
             PB 005
           </p>

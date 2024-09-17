@@ -1,8 +1,7 @@
 import { Textarea, TextInput } from "flowbite-react"
 
 export default function FormContactoAE() {
-  const urlodoo =
-    "https://docs.google.com/spreadsheets/d/1ixSh1_dZW0x3QjFmLixDGxVrl8qjI5ACECiDefkrgac/edit?usp=sharing"
+  const urlodoo = "https://fyr-lois-2024.odoo.com/landing/integrationcrm"
 
   const sendGS = async (e) => {
     e.preventDefault()
@@ -10,11 +9,11 @@ export default function FormContactoAE() {
     const data = Object.fromEntries(formData)
 
     const response = await fetch(urlodoo, {
-      method: POST,
-      body: { msg: "odoo es el wordpress del backend" },
+      method: "POST",
+      body: JSON.stringify({ data: "data" }),
     })
 
-    console.log(response)
+    console.log(response.body)
   }
 
   return (
