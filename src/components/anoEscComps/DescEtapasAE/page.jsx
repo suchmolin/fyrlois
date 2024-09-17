@@ -21,14 +21,14 @@ export default function DescEtapasAE() {
     highSchool: [
       "Metodología práctica y estimulante, especial para que se mantenga motivado hasta dominar el inglés.",
       "Temas pensados para su edad e intereses",
-      "Preparación para pruebas académicas: TOEFL y IELETS.",
+      "Preparación para pruebas académicas: TOEFL y IELTS.",
       "Potencia sus oportunidades de becas y de estudios en el extranjero.",
     ],
   }
 
   return (
     <div className="w-full min-h-screen flex justify-center items-center bg-[#f0f0f1] py-10 bg-[url('/img/AE/school2.webp')] bg-contain bg-no-repeat bg-right">
-      <div className="w-11/12 lg:w-10/12 flex flex-col gap-10">
+      <div className="w-11/12 lg:w-11/12 flex flex-col gap-10">
         <div className="w-full flex">
           <div className="hidden lg:flex w-2/12 justify-center items-center">
             <Image
@@ -59,7 +59,7 @@ export default function DescEtapasAE() {
                     </div>
                     <p
                       key={`parrafo${i}`}
-                      className="text-sm md:text-base flex items-center justify-start"
+                      className="text-base md:text-xl flex items-center justify-start"
                     >
                       {item}
                     </p>
@@ -82,7 +82,7 @@ export default function DescEtapasAE() {
             </div>
             <div className="w-4/12 h-full hidden sm:flex justify-center items-center">
               <div
-                className={`relative h-[106%] w-[230px] 2xl:w-[200px] bg-[#cdea80] rounded-lg shadow-lg`}
+                className={`relative h-[106%] w-[250px] 2xl:w-[270px] bg-[#cdea80] rounded-lg shadow-lg`}
               >
                 <Image
                   src="/img/AE/nino.webp"

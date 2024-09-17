@@ -16,7 +16,7 @@ export default function NavBarAE() {
             src="/img/1.png"
             alt="Fyr Lois"
             width={190}
-            height={86}
+            height={76}
             priority
           />
         </a>

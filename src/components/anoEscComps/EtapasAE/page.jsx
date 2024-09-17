@@ -26,7 +26,7 @@ export default function EtapasAE() {
           <CardEtapaAE
             fondo="[#f37eb5]"
             titulo="Elementary"
-            edades="6 a 11 años."
+            edades="6 a 11 años"
             colorEdades="#f37eb5"
             imagen="azul.png"
             tituloSize="text-2xl xl:text-4xl"
@@ -35,7 +35,7 @@ export default function EtapasAE() {
           <CardEtapaAE
             fondo="[#fbd874]"
             titulo="High School"
-            edades="12 a 16 años."
+            edades="12 a 16 años"
             colorEdades="#cdea80"
             imagen="rosada.webp"
             tituloSize="text-2xl xl:text-4xl"

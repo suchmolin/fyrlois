@@ -1,12 +1,9 @@
 export default function DifAE() {
   return (
     <div id="conocenos" className="w-full bg-[#fdd26e] -mt-1 py-5 sm:py-10">
-      <h2 className="font-[EastmanBold] text-3xl lg:text-5xl text-white text-center flex flex-col pb-4">
-        <span className="text-black text-base lg:text-xl font-[Eastman] ">
-          Una experiencia estimulante,
-        </span>{" "}
-        divertida y <br />
-        transformadora
+      <h2 className="font-[EastmanBold] text-xl sm:text-3xl lg:text-4xl text-white text-center flex flex-col pb-6">
+        Una experiencia estimulante,
+        <br /> divertida y transformadora
       </h2>
       <div className="flex flex-wrap gap-x-4 justify-center items-center">
         <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-blanco.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#000b7a]">

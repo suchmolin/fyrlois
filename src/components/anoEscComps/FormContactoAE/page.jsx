@@ -1,19 +1,22 @@
 import { Textarea, TextInput } from "flowbite-react"
 
 export default function FormContactoAE() {
-  const urlGS =
+  const urlodoo =
     "https://docs.google.com/spreadsheets/d/1ixSh1_dZW0x3QjFmLixDGxVrl8qjI5ACECiDefkrgac/edit?usp=sharing"
+
   const sendGS = async (e) => {
     e.preventDefault()
     const formData = new FormData(e.target)
     const data = Object.fromEntries(formData)
 
-    const response = await fetch(urlGS, {
-      method: "POST",
-      body: data,
+    const response = await fetch(urlodoo, {
+      method: POST,
+      body: { msg: "odoo es el wordpress del backend" },
     })
+
     console.log(response)
   }
+
   return (
     <div className="w-full flex items-center justify-center">
       <form
@@ -63,6 +66,7 @@ export default function FormContactoAE() {
           required
           rows={4}
         />
+        <input type="hidden" value="landingAE" name="origin" />
         <button className="w-fit px-24 mt-3 bg-[#fbd874] text-lg py-2 rounded-xl hover:shadow-xl transition-all duration-500">
           Enviar
         </button>

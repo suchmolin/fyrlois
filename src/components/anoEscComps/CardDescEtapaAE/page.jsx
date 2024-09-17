@@ -33,7 +33,7 @@ export default function CardDescEtapaAE({
                 </div>
                 <p
                   key={`parrafo${i}`}
-                  className="text-sm md:text-base flex items-center justify-start"
+                  className="text-base md:text-xl flex items-center justify-start"
                 >
                   {item}
                 </p>
@@ -56,7 +56,7 @@ export default function CardDescEtapaAE({
         </div>
         <div className="w-4/12 h-full hidden sm:flex justify-center items-center">
           <div
-            className={`relative h-[106%] w-[230px] 2xl:w-[200px] bg-[${color}] rounded-lg shadow-lg`}
+            className={`relative h-[106%] w-[250px] 2xl:w-[270px] bg-[${color}] rounded-lg shadow-lg`}
           >
             <Image
               src={img}
