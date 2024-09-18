@@ -1,13 +1,16 @@
 "use client"
-import { Textarea, TextInput } from "flowbite-react"
+import { Select, Textarea, TextInput } from "flowbite-react"
 import { useState } from "react"
+import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactoAE() {
-  const [data, setData] = useState(null)
+  const [sended, setSended] = useState(false)
+
   const sendGS = async (e) => {
     e.preventDefault()
     const formData = new FormData(e.target)
     const data = Object.fromEntries(formData)
+    data.modality = data.sede !== "online" ? "presencial" : "online"
 
     const fetchData = async () => {
       
@@ -16,58 +19,36 @@ export default function FormContactoAE() {
           "https://fyr-lois-2024.odoo.com/landing/integrationcrm",
           {
             method: "POST",
-            body: JSON.stringify({ "mdg": "cualquier vaina" }),
+            body: JSON.stringify(data),
             headers: {
               "Content-Type": "application/json",
-              "Connection": "keep-alive",
-              "Accept": "*/*",
-              "Accept-Encoding": "gzip, deflate, br",
             },
             mode: "no-cors",
+            cache: "no-cache",
           }
         )
-        console.log(response)
 
-        const json = await response.json()
-        setData(json)
+        
+        
       } catch (error) {
         console.log("error fetching data", error)
       }
     }
-    fetchData()
-  }
-  {/*
-    try {
-        const response = await fetch(
-          "https://fyr-lois-2024.odoo.com/web/session/authenticate",
-          {
-            method: "POST",
-            body: JSON.stringify({
-              "jsonrpc": "2.0",
-              "params":{
-                "db": "sistemasabrahamsosa-codigo-base-fyr-lois-2024-main-13556153",
-                "login": "admin",
-                "password": "admin123"
-                
-              }
-            }),
-            headers: {
-              "Content-Type": "application/json",
-            },
-            mode: "no-cors",
-          }
-        )
-        console.log(response)
 
-        const json = await response.json()
-        setData(json)
-      } catch (error) {
-        console.log("error fetching data", error)
-      }
-    */}
+    
+    fetchData()
+    document.getElementById("myForm").reset();
+    setSended(true)
+
+    setTimeout(() => {
+      setSended(false)
+    }, 5000)
+  }
+  
   return (
     <div className="w-full flex items-center justify-center">
       <form
+      id="myForm"
         onSubmit={(e) => sendGS(e)}
         className="formContactanosAE w-full sm:w-9/12 bg-[#cdea80] rounded-xl py-14 px-7 font-[EastmanBold] flex flex-col gap-3 sm:gap-7 justify-center items-center shadow-xl"
       >
@@ -75,7 +56,7 @@ export default function FormContactoAE() {
           className="w-full"
           required
           id="fullname"
-          name="fullname"
+          name="name"
           type="text"
           sizing="lg"
           placeholder="Nombre y Apellido"
@@ -107,18 +88,33 @@ export default function FormContactoAE() {
           sizing="lg"
           placeholder="Correo Electrónico"
         />
+        <Select name="sede" className="w-full" sizing="lg" id="countries" required>
+        <option value="">Seleccione la Sede</option>
+        <option value="online">Online</option>
+        <option value="Caracas - CCCT">Caracas - CCCT</option>
+        <option value="Caracas - UCAB">Caracas - UCAB</option>
+        <option value="Caracas - Prados del Este">Caracas - Prados del Este</option>
+        <option value="Puerto Ordaz">Puerto Ordaz</option>
+        <option value="Barquisimeto">Barquisimeto</option>
+        <option value="Maturín">Maturín</option>
+      </Select>
         <Textarea
           id="comment"
-          name="comment"
+          name="description"
           placeholder="Mensaje"
           required
           rows={4}
         />
-        <input type="hidden" value="landingAE" name="origin" />
-        <button className="w-fit px-24 mt-3 bg-[#fbd874] text-lg py-2 rounded-xl hover:shadow-xl transition-all duration-500">
+        <input type="hidden" value="landing Año Escolar" name="social_media" />
+        <input type="hidden" value="Fyr Lois English Institute" name="from" />
+        <button id="BtnEnviar" className="w-fit px-24 mt-3 bg-[#fbd874] text-lg py-2 rounded-xl hover:shadow-xl transition-all duration-500">
           Enviar
         </button>
       </form>
+      {
+        sended && <SendedMsg/>
+      }
+      
     </div>
   )
 }
