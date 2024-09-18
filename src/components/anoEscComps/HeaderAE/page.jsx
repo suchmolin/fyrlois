@@ -39,8 +39,15 @@ export default function HeaderAE() {
             </span>
           </a>
 
-          <div className="w-[300px] xs:w-[350px] sm:w-[500px] h-[180px] lg:h-[300px] mt-5 sm:mt-16 flex items-center justify-center bg-[#f0f0f1] border-[10px] sm:border-[20px] border-[#000b7a] rounded-md ">
-            <FaRegCirclePlay className="text-6xl sm:text-8xl" />
+          <div className="w-[300px] xs:w-[370px] sm:w-[500px] aspect-video mt-5 sm:mt-16 flex items-center justify-center bg-[#f0f0f1] border-[10px] sm:border-[20px] border-[#000b7a] rounded-md ">
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video_Final_Landing_page.mp4?alt=media&token=cd3da9ed-7d2e-4d09-989d-cfc9652ff4bb"
+              controls
+              autoPlay
+              muted
+              loop
+              className="w-full h-full cursor-pointer"
+            ></video>
           </div>
         </div>
         <div className="hidden lg:block w-full h-[700px] xl:h-full bg-[url('/img/AE/unidas3.png')] bg-contain bg-right bg-no-repeat aspect-square"></div>

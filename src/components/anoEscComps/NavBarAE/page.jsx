@@ -55,33 +55,33 @@ export default function NavBarAE() {
           </li>
         </ul>
         <div className="flex sm:hidden justify-center items-center w-full px-2 fixed bottom-2 z-50">
-          <div className="w-full flex justify-between bg-[#f0f0f1] rounded-lg px-2 py-3 text-[12px] text-[#000b7a]">
+          <div className="w-full flex justify-between bg-[#f0f0f1] rounded-lg px-2 py-3 text-[10px] xs:text-[12px] text-[#000b7a]">
             <a
               href="#programas"
-              className="flex flex-col justify-center items-center border-[#000b7a] px-3"
+              className="flex flex-col justify-center items-center border-[#000b7a] xs:px-3"
             >
-              <TiStarOutline className="text-3xl" />
+              <TiStarOutline className="text-2xl xs:text-3xl" />
               <p>Programas</p>
             </a>
             <a
               href="#horarios"
-              className="flex flex-col justify-center items-center  border-[#000b7a] px-3"
+              className="flex flex-col justify-center items-center  border-[#000b7a] xs:px-3"
             >
-              <MdOutlineWatchLater className="text-3xl" />
+              <MdOutlineWatchLater className="text-2xl xs:text-3xl" />
               <p>Horarios</p>
             </a>
             <a
               href="#conocenos"
-              className="flex flex-col justify-center items-center  border-[#000b7a] px-3"
+              className="flex flex-col justify-center items-center  border-[#000b7a] xs:px-3"
             >
-              <HiOutlineUsers className="text-3xl" />
+              <HiOutlineUsers className="text-2xl xs:text-3xl" />
               <p>Conócenos</p>
             </a>
             <a
               href="#contacto"
-              className="flex flex-col justify-center items-center  px-3"
+              className="flex flex-col justify-center items-center  xs:px-3"
             >
-              <MdPhoneIphone className="text-3xl" />
+              <MdPhoneIphone className="text-2xl xs:text-3xl" />
               <p>Contacto</p>
             </a>
           </div>
