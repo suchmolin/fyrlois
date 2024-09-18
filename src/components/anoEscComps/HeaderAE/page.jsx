@@ -15,7 +15,7 @@ export default function HeaderAE() {
         <div className="w-full lg:w-4/12 xl:w-3/12 2xl:w-7/12 flex flex-col items-center mt-20 lg:mt-48 lg:ml-20 xl:ml-48 2xl:ml-20 ">
           <div className="flex flex-col items-center -rotate-6">
             <IconsAE />
-            <h1 className="text-2xl sm:text-4xl text-black text-center font-[EastmanBold] flex flex-col">
+            <h1 className="text-2xl sm:text-4xl text-black text-center font-[EastmanBold] flex flex-col tracking-tight">
               Un futuro prometedor <br />
               <div className="mt-1">
                 <span className="text-2xl sm:text-4xl px-2 pb-1 bg-[#fbd874] rounded-lg">

@@ -10,15 +10,20 @@ export default function FormContactoAE() {
     const data = Object.fromEntries(formData)
 
     const fetchData = async () => {
-      console.log("-------******fetching data")
-
+      
       try {
         const response = await fetch(
           "https://fyr-lois-2024.odoo.com/landing/integrationcrm",
           {
             method: "POST",
-            body: JSON.stringify({ mdg: "cualquier vaina" }),
-            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ "mdg": "cualquier vaina" }),
+            headers: {
+              "Content-Type": "application/json",
+              "Connection": "keep-alive",
+              "Accept": "*/*",
+              "Accept-Encoding": "gzip, deflate, br",
+            },
+            mode: "no-cors",
           }
         )
         console.log(response)
@@ -30,9 +35,36 @@ export default function FormContactoAE() {
       }
     }
     fetchData()
-    console.log(response.body)
   }
+  {/*
+    try {
+        const response = await fetch(
+          "https://fyr-lois-2024.odoo.com/web/session/authenticate",
+          {
+            method: "POST",
+            body: JSON.stringify({
+              "jsonrpc": "2.0",
+              "params":{
+                "db": "sistemasabrahamsosa-codigo-base-fyr-lois-2024-main-13556153",
+                "login": "admin",
+                "password": "admin123"
+                
+              }
+            }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+            mode: "no-cors",
+          }
+        )
+        console.log(response)
 
+        const json = await response.json()
+        setData(json)
+      } catch (error) {
+        console.log("error fetching data", error)
+      }
+    */}
   return (
     <div className="w-full flex items-center justify-center">
       <form

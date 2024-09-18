@@ -132,7 +132,7 @@ export default function FooterAE() {
           </div>
         </div>
       </div>
-      <div className="w-full min-h-[70px] flex  flex-col-reverse sm:flex-row justify-between items-center bg-[#f0f0f1] px-4 sm:px-20">
+      <div className="w-full min-h-[70px] flex  flex-col-reverse sm:flex-row justify-between items-center bg-[#f0f0f1] px-4 sm:px-20 pb-24 sm:pb-0">
         <p className="text-sm">© 2024 Fyr Lois. All Right Reserved.</p>
         <div className="flex gap-4 text-2xl items-center">
           <a

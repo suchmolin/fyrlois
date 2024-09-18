@@ -5,14 +5,22 @@ import IconsAE from "../IconsAE/page"
 export default function ContactanosAE() {
   return (
     <div id="contacto" className="w-full py-5 md:pt-10 md:pb-20">
-      <h2 className="font-[EastmanBold] text-4xl text-center">
+      <h2 className="font-[EastmanBold] text-3xl sm:text-4xl text-center tracking-tighter">
         Vive la experiencia
       </h2>
       <div className="flex gap-3 w-full justify-center mb-4">
-        <h3 className="font-[Londrina] text-6xl text-[#f37eb5]">ahora</h3>
+        <h3 className="font-[Londrina] text-5xl sm:text-6xl text-[#f37eb5]">ahora</h3>
         <Image
+        className="hidden sm:block"
           src="/img/AE/estrella.png"
           width={80}
+          height={10}
+          alt="estrella"
+        />
+        <Image
+        className="block sm:hidden"
+          src="/img/AE/estrella.png"
+          width={60}
           height={10}
           alt="estrella"
         />
