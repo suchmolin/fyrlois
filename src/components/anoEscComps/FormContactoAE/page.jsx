@@ -1,25 +1,35 @@
+"use client"
 import { Textarea, TextInput } from "flowbite-react"
+import { useState } from "react"
 
 export default function FormContactoAE() {
-  const urlodoo = "https://fyr-lois-2024.odoo.com/landing/integrationcrm"
-
+  const [data, setData] = useState(null)
   const sendGS = async (e) => {
     e.preventDefault()
     const formData = new FormData(e.target)
     const data = Object.fromEntries(formData)
 
-    const response = await fetch(urlodoo, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Connection: "keep-alive",
-        "Accept-Encoding": "gzip, deflate, br",
-        Accept: "*/*",
-      },
-      body: JSON.stringify({ msg: "qwe" }),
-      mode: "no-cors",
-    })
+    const fetchData = async () => {
+      console.log("-------******fetching data")
 
+      try {
+        const response = await fetch(
+          "https://fyr-lois-2024.odoo.com/landing/integrationcrm",
+          {
+            method: "POST",
+            body: JSON.stringify({ mdg: "cualquier vaina" }),
+            headers: { "Content-Type": "application/json" },
+          }
+        )
+        console.log(response)
+
+        const json = await response.json()
+        setData(json)
+      } catch (error) {
+        console.log("error fetching data", error)
+      }
+    }
+    fetchData()
     console.log(response.body)
   }
 
