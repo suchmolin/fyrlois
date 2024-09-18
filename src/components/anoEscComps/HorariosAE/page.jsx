@@ -40,7 +40,7 @@ export default function HorariosAE() {
             )}
             <div className="absolute bottom-5 left-0 w-full flex justify-center">
               <BotonAE
-                texto="Contáctanos"
+                texto="Elige el tuyo"
                 color1="white"
                 color2="#cdea80"
                 colorHover="#000b7a"

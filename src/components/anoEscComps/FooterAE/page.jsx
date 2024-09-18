@@ -34,7 +34,7 @@ export default function FooterAE() {
         "https://www.google.com/maps/place/Centro+Comercial+Galer%C3%ADas+Prados+del+Este/@10.4492514,-66.8949345,15z/data=!4m10!1m2!2m1!1scentro+comercial+prados+del+este+fyrlois!3m6!1s0x8c2af7986c74cf3f:0x35c3de38e2550b20!8m2!3d10.4496787!4d-66.880684!15sCihjZW50cm8gY29tZXJjaWFsIHByYWRvcyBkZWwgZXN0ZSBmeXJsb2lzWioiKGNlbnRybyBjb21lcmNpYWwgcHJhZG9zIGRlbCBlc3RlIGZ5cmxvaXOSAQ9zaG9wcGluZ19jZW50ZXLgAQA!16s%2Fg%2F11rxnxs923?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-      titulo: "Maturin",
+      titulo: "Maturín",
       img: "/img/AE/maturinmap.png",
       direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
       redir:

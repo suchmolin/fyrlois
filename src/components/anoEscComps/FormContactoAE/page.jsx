@@ -17,6 +17,7 @@ export default function FormContactoAE() {
         Accept: "*/*",
       },
       body: JSON.stringify({ msg: "qwe" }),
+      mode: "no-cors",
     })
 
     console.log(response.body)

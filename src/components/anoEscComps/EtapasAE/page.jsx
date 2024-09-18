@@ -1,10 +1,11 @@
+import { IoArrowForwardCircleOutline } from "react-icons/io5"
 import CardEtapaAE from "../CardEtapaAE/page"
 
 export default function EtapasAE() {
   return (
     <div
       id="programas"
-      className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-32 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom"
+      className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-16 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom"
     >
       <div className="w-11/12 xl:w-10/12">
         <h2 className="text-3xl sm:text-4xl text-[#000b7a] font-[EastmanBold] flex flex-col leading-9">
@@ -43,6 +44,19 @@ export default function EtapasAE() {
           />
         </div>
       </div>
+      <a
+        href="#contacto"
+        className={`comienzaAhora flex justify-center items-center mt-16 sm:mt-20 bg-[#fbd874] rounded-xl text-2xl font-[EastmanBold] hover:bg-[#cdea80] transition-all duration-300`}
+      >
+        <span
+          className={`px-4 py-2 rounded-xl font-bold text-white bg-[#001a6f]`}
+        >
+          Conoce más
+        </span>
+        <span className="flecha px-1 transition-all duration-300">
+          <IoArrowForwardCircleOutline className="text-3xl" />{" "}
+        </span>
+      </a>
     </div>
   )
 }
