@@ -14,14 +14,7 @@ export default function CardDescEtapaAE({
   return (
     <div id={id} className="w-full flex">
       <div className="hidden lg:flex w-2/12 justify-center items-center">
-        <Image
-          className="-rotate-[20deg]"
-          src={icon}
-          alt="Bombillo"
-          width={100}
-          height={100}
-          unoptimized
-        />
+        <Image src={icon} alt="Bombillo" width={80} height={80} unoptimized />
       </div>
       <div className="w-full lg:w-10/12 xl:w-9/12 bg-[#000b7a] text-white rounded-xl flex justify-between">
         <div className="w-full sm:w-8/12 flex flex-col pl-5 sm:pl-10 md:pl-20 pr-5 sm:pr-0 py-7">
@@ -40,7 +33,7 @@ export default function CardDescEtapaAE({
                 </div>
                 <p
                   key={`parrafo${i}`}
-                  className="text-sm md:text-base flex items-center justify-start"
+                  className="text-base md:text-xl flex items-center justify-start"
                 >
                   {item}
                 </p>
@@ -63,7 +56,7 @@ export default function CardDescEtapaAE({
         </div>
         <div className="w-4/12 h-full hidden sm:flex justify-center items-center">
           <div
-            className={`relative h-[106%] w-[230px] 2xl:w-[200px] bg-[${color}] rounded-lg shadow-lg`}
+            className={`relative h-[106%] w-[250px] 2xl:w-[270px] bg-[${color}] rounded-lg shadow-lg`}
           >
             <Image
               src={img}

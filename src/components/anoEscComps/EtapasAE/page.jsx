@@ -1,10 +1,11 @@
+import { IoArrowForwardCircleOutline } from "react-icons/io5"
 import CardEtapaAE from "../CardEtapaAE/page"
 
 export default function EtapasAE() {
   return (
     <div
       id="programas"
-      className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-32 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom"
+      className="w-full flex flex-col items-center justify-center -mt-1  bg-white pt-10 pb-20 xl:py-16 bg-[url('/img/AE/curva.png')] bg-contain bg-no-repeat bg-bottom"
     >
       <div className="w-11/12 xl:w-10/12">
         <h2 className="text-3xl sm:text-4xl text-[#000b7a] font-[EastmanBold] flex flex-col leading-9">
@@ -19,14 +20,14 @@ export default function EtapasAE() {
             titulo="Kids"
             edades="3 a 5 años"
             colorEdades="#cdea80"
-            imagen="nino.png"
+            imagen="nino.webp"
             tituloSize="text-3xl xl:text-5xl"
             idref="kidsdesc"
           />
           <CardEtapaAE
             fondo="[#f37eb5]"
             titulo="Elementary"
-            edades="6 a 11 años."
+            edades="6 a 11 años"
             colorEdades="#f37eb5"
             imagen="azul.png"
             tituloSize="text-2xl xl:text-4xl"
@@ -35,14 +36,27 @@ export default function EtapasAE() {
           <CardEtapaAE
             fondo="[#fbd874]"
             titulo="High School"
-            edades="12 a 16 años."
+            edades="12 a 16 años"
             colorEdades="#cdea80"
-            imagen="rosada.png"
+            imagen="rosada.webp"
             tituloSize="text-2xl xl:text-4xl"
             idref="highschooldesc"
           />
         </div>
       </div>
+      <a
+        href="#contacto"
+        className={`comienzaAhora flex justify-center items-center mt-16 sm:mt-20 bg-[#fbd874] rounded-xl text-2xl font-[EastmanBold] hover:bg-[#cdea80] transition-all duration-300`}
+      >
+        <span
+          className={`px-4 py-2 rounded-xl font-bold text-white bg-[#001a6f]`}
+        >
+          Conoce más
+        </span>
+        <span className="flecha px-1 transition-all duration-300">
+          <IoArrowForwardCircleOutline className="text-3xl" />{" "}
+        </span>
+      </a>
     </div>
   )
 }

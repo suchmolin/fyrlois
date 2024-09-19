@@ -1,3 +1,4 @@
+import { IoArrowForwardCircleOutline } from "react-icons/io5"
 import IconsAE from "../IconsAE/page"
 
 export default function AdaptadoAE() {
@@ -9,7 +10,7 @@ export default function AdaptadoAE() {
             <p className="text-6xl sm:text-8xl">3</p>
             <p className="text-xl sm:text-3xl -rotate-12">Lapsos</p>
           </div>
-          <div className="w-[90px] xs:w-[100px] sm:w-[150px] h-[200px] sm:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+          <div className="w-[90px] xs:w-[100px] sm:w-[150px] h-[200px] sm:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
             <p className="text-6xl sm:text-8xl">10</p>
             <p className="text-xl sm:text-3xl -rotate-12">Meses</p>
           </div>
@@ -36,6 +37,19 @@ export default function AdaptadoAE() {
           </h2>
         </div>
       </div>
+      <a
+        href="#contacto"
+        className={`comienzaAhora flex sm:hidden justify-center items-center mt-5 sm:mt-10 bg-[#fbd874] rounded-xl text-2xl font-[EastmanBold] hover:bg-[#fbd874] transition-all duration-300`}
+      >
+        <span
+          className={`px-4 py-2 rounded-xl font-bold text-white bg-[#001a6f]`}
+        >
+          Inicia ahora
+        </span>
+        <span className="flecha px-1 transition-all duration-300">
+          <IoArrowForwardCircleOutline className="text-3xl" />{" "}
+        </span>
+      </a>
       <div className="w-full h-[100px] lg:h-[250px] bg-white bg-[url('/img/AE/verdeee.png')] bg-cover bg-no-repeat bg-top"></div>
     </div>
   )

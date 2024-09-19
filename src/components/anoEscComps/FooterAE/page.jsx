@@ -1,10 +1,12 @@
 import { Button, Dropdown, Popover } from "flowbite-react"
-import { redirect } from "next/dist/server/api-utils"
+
 import Image from "next/legacy/image"
 import { FaWhatsapp } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { LiaLinkedin } from "react-icons/lia"
 import { LiaFacebookSquare } from "react-icons/lia"
+import { FaPhoneAlt } from "react-icons/fa"
+import { FaMapMarkerAlt } from "react-icons/fa"
 
 export default function FooterAE() {
   const data = [
@@ -32,7 +34,7 @@ export default function FooterAE() {
         "https://www.google.com/maps/place/Centro+Comercial+Galer%C3%ADas+Prados+del+Este/@10.4492514,-66.8949345,15z/data=!4m10!1m2!2m1!1scentro+comercial+prados+del+este+fyrlois!3m6!1s0x8c2af7986c74cf3f:0x35c3de38e2550b20!8m2!3d10.4496787!4d-66.880684!15sCihjZW50cm8gY29tZXJjaWFsIHByYWRvcyBkZWwgZXN0ZSBmeXJsb2lzWioiKGNlbnRybyBjb21lcmNpYWwgcHJhZG9zIGRlbCBlc3RlIGZ5cmxvaXOSAQ9zaG9wcGluZ19jZW50ZXLgAQA!16s%2Fg%2F11rxnxs923?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D",
     },
     {
-      titulo: "Maturin",
+      titulo: "Maturín",
       img: "/img/AE/maturinmap.png",
       direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
       redir:
@@ -93,8 +95,11 @@ export default function FooterAE() {
         </div>
         <div className="w-11/12 sm:w-6/12 lg:w-4/12 pb-5 sm:pb-0">
           <h2 className="font-[EastmanBold] mb-3">Contáctanos</h2>
-          <p>0212 959 3681 CCCT</p>
-          <p>
+          <p className="flex gap-2 items-center mb-2">
+            <FaPhoneAlt className=" text-[#000b7a]" /> 0212 959 3681
+          </p>
+          <p className="flex gap-2 items-center">
+            <FaMapMarkerAlt className=" text-[#000b7a]" />
             Centro Ciudad Comercial Tamanaco <br /> (CCCT), Sector Yarey, local
             PB 005
           </p>
@@ -127,7 +132,7 @@ export default function FooterAE() {
           </div>
         </div>
       </div>
-      <div className="w-full min-h-[70px] flex  flex-col-reverse sm:flex-row justify-between items-center bg-[#f0f0f1] px-4 sm:px-20">
+      <div className="w-full min-h-[70px] flex  flex-col-reverse sm:flex-row justify-between items-center bg-[#f0f0f1] px-4 sm:px-20 pb-24 sm:pb-0">
         <p className="text-sm">© 2024 Fyr Lois. All Right Reserved.</p>
         <div className="flex gap-4 text-2xl items-center">
           <a

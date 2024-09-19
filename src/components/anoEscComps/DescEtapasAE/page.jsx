@@ -2,7 +2,7 @@
 import { FaSquare } from "react-icons/fa"
 import CardDescEtapaAE from "../CardDescEtapaAE/page"
 import { IoArrowForwardCircleOutline } from "react-icons/io5"
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 export default function DescEtapasAE() {
   const Desciptions = {
@@ -21,22 +21,21 @@ export default function DescEtapasAE() {
     highSchool: [
       "Metodología práctica y estimulante, especial para que se mantenga motivado hasta dominar el inglés.",
       "Temas pensados para su edad e intereses",
-      "Preparación para pruebas académicas: TOEFL y IELETS.",
+      "Preparación para pruebas académicas: TOEFL y IELTS.",
       "Potencia sus oportunidades de becas y de estudios en el extranjero.",
     ],
   }
 
   return (
-    <div className="w-full min-h-screen flex justify-center items-center bg-[#f0f0f1] py-10 bg-[url('/img/AE/school2.png')] bg-contain bg-no-repeat bg-right">
-      <div className="w-11/12 lg:w-10/12 flex flex-col gap-10">
+    <div className="w-full min-h-screen flex justify-center items-center bg-[#f0f0f1] py-10 bg-[url('/img/AE/school2.webp')] bg-contain bg-no-repeat bg-right">
+      <div className="w-11/12 lg:w-11/12 flex flex-col gap-10">
         <div className="w-full flex">
           <div className="hidden lg:flex w-2/12 justify-center items-center">
             <Image
-              className="-rotate-[20deg]"
               src="/img/AE/bombillo.png"
               alt="Bombillo"
-              width={100}
-              height={100}
+              width={90}
+              height={90}
               unoptimized
             />
           </div>
@@ -60,7 +59,7 @@ export default function DescEtapasAE() {
                     </div>
                     <p
                       key={`parrafo${i}`}
-                      className="text-sm md:text-base flex items-center justify-start"
+                      className="text-base md:text-xl flex items-center justify-start"
                     >
                       {item}
                     </p>
@@ -83,10 +82,10 @@ export default function DescEtapasAE() {
             </div>
             <div className="w-4/12 h-full hidden sm:flex justify-center items-center">
               <div
-                className={`relative h-[106%] w-[230px] 2xl:w-[200px] bg-[#cdea80] rounded-lg shadow-lg`}
+                className={`relative h-[106%] w-[250px] 2xl:w-[270px] bg-[#cdea80] rounded-lg shadow-lg`}
               >
                 <Image
-                  src="/img/AE/nino.png"
+                  src="/img/AE/nino.webp"
                   alt="niños"
                   layout="fill"
                   objectFit="contain"
@@ -130,7 +129,7 @@ export default function DescEtapasAE() {
           icon="/img/AE/iconohello.png"
           color="#fbd874"
           titulo="High School (12 a 16 años)"
-          img="/img/AE/rosada.png"
+          img="/img/AE/rosada.webp"
           items={Desciptions.highSchool}
           id="highschooldesc"
         />

@@ -32,7 +32,7 @@ export default function HorariosAE() {
           </button>
         </div>
         <div className="w-full flex justify-center py-10">
-          <div className="relative w-full lg:w-11/12 xl:w-10/12 sm:min-h-[600px] bg-[url('/img/AE/cuadro-horario.png')] bg-cover xl:bg-cover bg-center bg-no-repeat rounded-xl px-5 md:px-10 lg:px-20 pt-5 pb-24 sm:py-5 justify-center items-center">
+          <div className="relative w-full lg:w-11/12 xl:w-10/12 sm:min-h-[600px] bg-[url('/img/AE/cuadro-horario.webp')] bg-cover xl:bg-cover bg-center bg-no-repeat rounded-xl px-5 md:px-10 lg:px-20 pt-5 pb-24 sm:py-5 justify-center items-center">
             {selector === "presencial" ? (
               <HorariosPresencialAE />
             ) : (
@@ -40,7 +40,7 @@ export default function HorariosAE() {
             )}
             <div className="absolute bottom-5 left-0 w-full flex justify-center">
               <BotonAE
-                texto="Contáctanos"
+                texto="Elige el tuyo"
                 color1="white"
                 color2="#cdea80"
                 colorHover="#000b7a"

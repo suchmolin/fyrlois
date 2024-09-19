@@ -12,16 +12,21 @@ export default function HeaderAE() {
     <header className="relative bg-[url('/img/AE/linear.png')] bg-no-repeat bg-bottom w-full lg:min-h-[130vh] flex flex-col bg-[#f0f0f0] pb-10">
       <NavBarAE />
       <div className="relative w-full h-full flex  flex-row mt-10 lg:mt-0">
-        <div className="w-full lg:w-4/12 xl:w-3/12 2xl:w-6/12 flex flex-col items-center mt-20 lg:mt-48 lg:ml-20 xl:ml-48 2xl:ml-20 ">
+        <div className="w-full lg:w-4/12 xl:w-3/12 2xl:w-7/12 flex flex-col items-center mt-20 lg:mt-48 lg:ml-20 xl:ml-48 2xl:ml-20 ">
           <div className="flex flex-col items-center -rotate-6">
             <IconsAE />
-            <h1 className="text-4xl sm:text-5xl xl:text-7xl text-[#000b7a] text-center font-[EastmanBold] flex flex-col">
-              Impulsa el <br />
-              <span className="text-5xl sm:text-6xl xl:text-8xl">
-                bilingüismo
-              </span>
-              <span className="font-[Londrina] text-6xl sm:text-7xl xl:text-8xl text-[#f37eb5]">
-                de tu hijo
+            <h1 className="text-2xl sm:text-4xl text-black text-center font-[EastmanBold] flex flex-col tracking-tight">
+              Un futuro prometedor <br />
+              <div className="mt-1">
+                <span className="text-2xl sm:text-4xl px-2 pb-1 bg-[#fbd874] rounded-lg">
+                  comienza
+                </span>
+                <span className="font-[Londrina] text-3xl sm:text-5xl text-[#f37eb5] ml-1">
+                  aprendiendo
+                </span>
+              </div>
+              <span className="font-[Londrina] text-3xl sm:text-5xl text-[#f37eb5] mt-1">
+                inglés
               </span>
             </h1>
           </div>
@@ -32,15 +37,22 @@ export default function HeaderAE() {
             <span
               className={`px-4 py-2 rounded-xl font-bold text-white bg-[#001a6f]`}
             >
-              Comienza ahora
+              Inicia ahora
             </span>
             <span className="flecha px-1 transition-all duration-300">
               <IoArrowForwardCircleOutline className="text-3xl" />{" "}
             </span>
           </a>
 
-          <div className="w-[300px] xs:w-[350px] sm:w-[500px] h-[180px] lg:h-[300px] mt-5 sm:mt-16 flex items-center justify-center bg-[#f0f0f1] border-[10px] sm:border-[20px] border-[#000b7a] rounded-md ">
-            <FaRegCirclePlay className="text-6xl sm:text-8xl" />
+          <div className="w-[300px] xs:w-[370px] sm:w-[500px] aspect-video mt-5 sm:mt-16 flex items-center justify-center bg-[#f0f0f1] border-[10px] sm:border-[20px] border-[#000b7a] rounded-md ">
+            <video
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video_Final_Landing_page.mp4?alt=media&token=cd3da9ed-7d2e-4d09-989d-cfc9652ff4bb"
+              controls
+              autoPlay
+              muted
+              loop
+              className="w-full h-full cursor-pointer"
+            ></video>
           </div>
         </div>
         <div className="hidden lg:block w-full h-[700px] xl:h-full bg-[url('/img/AE/unidas3.png')] bg-contain bg-right bg-no-repeat aspect-square"></div>

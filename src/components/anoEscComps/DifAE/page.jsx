@@ -1,12 +1,11 @@
+import { IoArrowForwardCircleOutline } from "react-icons/io5"
+
 export default function DifAE() {
   return (
     <div id="conocenos" className="w-full bg-[#fdd26e] -mt-1 py-5 sm:py-10">
-      <h2 className="font-[EastmanBold] text-3xl lg:text-5xl text-white text-center flex flex-col pb-4">
-        <span className="text-black text-base lg:text-xl font-[Eastman] ">
-          Una experiencia estimulante,
-        </span>{" "}
-        divertida y <br />
-        transformadora
+      <h2 className="font-[EastmanBold] text-xl sm:text-3xl lg:text-4xl text-white text-center flex flex-col pb-6">
+        Una enseñanza estimulante,
+        <br /> divertida y transformadora
       </h2>
       <div className="flex flex-wrap gap-x-4 justify-center items-center">
         <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-blanco.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#000b7a]">
@@ -15,7 +14,7 @@ export default function DifAE() {
             años de <br /> experiencia.
           </p>
         </div>
-        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
           <p className="text-[10px] lg:text-base text-white leading-[20px]">
             Comunicacional <br /> y vivencial.
           </p>
@@ -32,7 +31,7 @@ export default function DifAE() {
             Común <br /> Europeo
           </p>
         </div>
-        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
+        <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-azul2.webp')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#fbd874]">
           <p className="text-white text-4xl lg:text-5xl">100</p>
           <p className=" leading-[20px] text-2xl lg:text-3xl">Celtas.</p>
           <p className="text-xs lg:text-base text-white leading-[15px]">
@@ -52,6 +51,21 @@ export default function DifAE() {
             por salón.
           </p>
         </div>
+      </div>
+      <div className="w-full flex justify-center">
+        <a
+          href="#contacto"
+          className={`comienzaAhora flex justify-center items-center mt-5 sm:mt-10 bg-[#cdea80] rounded-xl text-2xl font-[EastmanBold] hover:bg-[#cdea80] transition-all duration-300 w-fit`}
+        >
+          <span
+            className={`px-4 py-2 rounded-xl font-bold text-white bg-[#001a6f]`}
+          >
+            Empezar
+          </span>
+          <span className="flecha px-1 transition-all duration-300">
+            <IoArrowForwardCircleOutline className="text-3xl" />{" "}
+          </span>
+        </a>
       </div>
     </div>
   )
