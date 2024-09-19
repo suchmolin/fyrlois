@@ -136,28 +136,28 @@ export default function FooterAE() {
         <p className="text-sm">© 2024 Fyr Lois. All Right Reserved.</p>
         <div className="flex gap-4 text-2xl items-center">
           <a
-            href="#"
+            href="https://wa.me/584242760113"
             aria-label="Whatsapp"
             className="hover:scale-110 hover:text-green-500 transition-all duration-300"
           >
             <FaWhatsapp />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/fyrloisgrancaracas/?hl=en"
             aria-label="Instagram"
             className="hover:scale-110 hover:text-orange-400 transition-all duration-300"
           >
             <FaInstagram />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/company/fyr-lois-language-institute"
             aria-label="Linkedin"
             className="hover:scale-110 hover:text-blue-400 transition-all duration-300"
           >
             <LiaLinkedin className="text-3xl" />
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/fyrlois.oficial"
             aria-label="Facebook"
             className="hover:scale-110 hover:text-blue-500 transition-all duration-300"
           >
