@@ -13,31 +13,14 @@ export default function FormContactoAE() {
     const data = Object.fromEntries(formData)
     data.modality = data.sede !== "online" ? "presencial" : "online"
 
-    const fetchData = async () => {
-      
-      try {
-        const response = await fetch(urlOdoo
-          ,
-          {
-            method: "POST",
-            body: JSON.stringify(data),
-            headers: {
-              "Content-Type": "application/json",
-            },
-            mode: "no-cors",
-            cache: "no-cache",
-          }
-        )
-
-        
-        
-      } catch (error) {
-        console.log("error fetching data", error)
-      }
-    }
-
+    const resp = await fetch("/api/fetchOdoo", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
     
-    fetchData()
     document.getElementById("myForm").reset();
     setSended(true)
 
