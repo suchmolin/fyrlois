@@ -4,6 +4,7 @@ import { useState } from "react"
 import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactoAE() {
+  const urlOdoo = process.env.URL_ODOO_CRM
   const [sended, setSended] = useState(false)
 
   const sendGS = async (e) => {
@@ -15,8 +16,8 @@ export default function FormContactoAE() {
     const fetchData = async () => {
       
       try {
-        const response = await fetch(
-          "https://fyr-lois-2024.odoo.com/landing/integrationcrm",
+        const response = await fetch(urlOdoo
+          ,
           {
             method: "POST",
             body: JSON.stringify(data),
