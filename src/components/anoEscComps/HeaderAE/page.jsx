@@ -46,7 +46,7 @@ export default function HeaderAE() {
 
           <div className="w-[300px] xs:w-[370px] sm:w-[500px] aspect-video mt-5 sm:mt-16 flex items-center justify-center bg-[#f0f0f1] border-[10px] sm:border-[20px] border-[#000b7a] rounded-md ">
             <video
-              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video_Final_Landing_page.mp4?alt=media&token=cd3da9ed-7d2e-4d09-989d-cfc9652ff4bb"
+              src="https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video%20Final%20Landing%20page.mp4?alt=media&token=a8162bd0-dd23-4e7b-b437-0a95f69047bc"
               controls
               autoPlay
               muted
