@@ -7,10 +7,10 @@ export default function NavBar() {
       <Image src="/img/1.png" alt="logo" width={150} height={50} />
       <div className="flex gap-20 h-full">
         <a
-          className="h-full text-lg text-[#000b7a] flex px-3 items-center hover:bg-gray-200"
+          className="h-full text- text-[#000b7a] flex px-3 items-center hover:bg-gray-200"
           href="/anoescolar"
         >
-          Año Escolar
+          Año Escolar 2024 - 2025
         </a>
         <DropDownMenu />
       </div>
