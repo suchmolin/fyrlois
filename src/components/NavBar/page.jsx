@@ -1,5 +1,5 @@
-import Image from "next/legacy/image"
-import DropDownMenu from "../DropDownMenu/page"
+import Image from "next/legacy/image";
+import DropDownMenu from "../DropDownMenu/page";
 
 export default function NavBar() {
   return (
@@ -8,12 +8,12 @@ export default function NavBar() {
       <div className="flex gap-20 h-full">
         <a
           className="h-full text- text-[#000b7a] flex px-3 items-center hover:bg-gray-200"
-          href="/anoescolar"
+          href="/regresoaclases"
         >
           Año Escolar 2024 - 2025
         </a>
         <DropDownMenu />
       </div>
     </nav>
-  )
+  );
 }
