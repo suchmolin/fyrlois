@@ -9,7 +9,7 @@ export default function NavBar() {
       </div>
       <div className="w-full sm:w-fit flex justify-between sm:justify-center h-full sm:gap-20">
         <a
-          className="h-full text-sm sm:text-base text-[#000b7a] flex px-3 items-center hover:bg-gray-200"
+          className="h-full text- text-[#000b7a] flex px-3 items-center hover:bg-gray-200"
           href="/anoescolar"
         >
           Año Escolar 2024 - 2025
