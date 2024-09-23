@@ -9,16 +9,18 @@ export default function ContactanosAE() {
         Vive la experiencia
       </h2>
       <div className="flex gap-3 w-full justify-center mb-4">
-        <h3 className="font-[Londrina] text-5xl sm:text-6xl text-[#f37eb5]">ahora</h3>
+        <h3 className="font-[Londrina] text-5xl sm:text-6xl text-[#f37eb5]">
+          ahora
+        </h3>
         <Image
-        className="hidden sm:block"
+          className="hidden sm:block"
           src="/img/AE/estrella.png"
           width={80}
           height={10}
           alt="estrella"
         />
         <Image
-        className="block sm:hidden"
+          className="block sm:hidden"
           src="/img/AE/estrella.png"
           width={60}
           height={10}
@@ -26,7 +28,7 @@ export default function ContactanosAE() {
         />
       </div>
       <div className="flex items-center justify-start lg:justify-center">
-        <div className="w-full lg:w-11/12 flex flex-col md:flex-row justify-center md:items-center px-5 lg:px-0">
+        <div className="w-full lg:w-11/12 flex flex-col md:flex-row justify-center md:items-center px-1 xs:px-5 lg:px-0">
           <div className="w-4/12 lg:w-4/12 flex flex-col -rotate-3 pb-5 md:pb-0 ml-10 xs:ml-20 sm:ml-0">
             <div className="w-full flex justify-center">
               <IconsAE />

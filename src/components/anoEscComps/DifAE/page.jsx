@@ -3,7 +3,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5"
 export default function DifAE() {
   return (
     <div id="conocenos" className="w-full bg-[#fdd26e] -mt-1 py-5 sm:py-10">
-      <h2 className="font-[EastmanBold] text-xl sm:text-3xl lg:text-4xl text-white text-center flex flex-col pb-6">
+      <h2 className="font-[EastmanBold] text-lg xs:text-xl sm:text-3xl lg:text-4xl text-white text-center flex flex-col pb-6">
         Una enseñanza estimulante,
         <br /> divertida y transformadora
       </h2>
