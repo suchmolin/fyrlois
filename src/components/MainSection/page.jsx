@@ -6,7 +6,7 @@ export default function MainSection() {
     <div className="relative mainSec h-[640px] flex">
       <div className="relative w-full flex justify-center lg:justify-end">
         <div className="absolute top-0 left-0">
-          <div className="relative w-[150px] h-[150px]">
+          <div className="relative w-[80px] sm:w-[150px] aspect-square">
             <Image
               src="/img/222.png"
               alt="baner1"
