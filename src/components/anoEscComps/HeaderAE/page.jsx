@@ -17,7 +17,7 @@ export default function HeaderAE() {
             <IconsAE />
             <h1 className="text-2xl sm:text-4xl 3xl:text-7xl text-black text-center font-[EastmanBold] flex flex-col tracking-tight">
               Un futuro prometedor <br />
-              <div className="mt-1 3xl:mt-3">
+              <div className="mt-1 3xl:mt-1">
                 <span className="text-2xl sm:text-4xl 3xl:text-7xl px-2 pb-3 bg-[#fbd874] rounded-lg">
                   comienza
                 </span>
