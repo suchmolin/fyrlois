@@ -23,7 +23,8 @@ export default function EtapasAE() {
             imagen="nino.webp"
             tituloSize="text-3xl xl:text-5xl"
             idref="kidsdesc"
-          />
+            alt="niño de 4 años, con el pulgar izquierdo alzado, feliz por sus clases de inglés"
+            />
           <CardEtapaAE
             fondo="[#f37eb5]"
             titulo="Elementary"
@@ -32,7 +33,8 @@ export default function EtapasAE() {
             imagen="azul.png"
             tituloSize="text-2xl xl:text-4xl"
             idref="elementarydesc"
-          />
+            alt="niña de 8 años con cabello negro ondulado, feliz por sus clases de inglés inglés"
+            />
           <CardEtapaAE
             fondo="[#fbd874]"
             titulo="High School"
@@ -41,7 +43,9 @@ export default function EtapasAE() {
             imagen="rosada.webp"
             tituloSize="text-2xl xl:text-4xl"
             idref="highschooldesc"
-          />
+            alt="adolescente femenina de 17 años con los brazos cruzados y cabello marron, 
+sonriendo por sus clases de inglés"
+            />
         </div>
       </div>
       <a

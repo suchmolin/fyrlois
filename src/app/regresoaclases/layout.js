@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Año Escolar Fyr Lois",
-  description: "Fyr Lois Language Institute",
+  title: "Fyr Lois: La Clave Para El Éxito de tu Hijo Es El Inglés",
+  description: "Acompañamiento académico de primer nivel, adaptado a su etapa y competencias en inglés, durante todo el año escolar.",
 }
 
 export default function AnoEscolarLayout({ children }) {

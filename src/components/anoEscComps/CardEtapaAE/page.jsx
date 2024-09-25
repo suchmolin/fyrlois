@@ -8,6 +8,7 @@ export default function CardEtapaAE({
   imagen,
   tituloSize,
   idref,
+  alt
 }) {
   return (
     <a
@@ -19,7 +20,7 @@ export default function CardEtapaAE({
           src={`/img/AE/${imagen}`}
           layout="fill"
           objectFit="contain"
-          alt="school"
+          alt={alt}
         />
       </div>
       <div className="absolute bottom-0 w-full flex justify-center">

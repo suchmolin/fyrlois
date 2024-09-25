@@ -14,7 +14,7 @@ export default function NavBarAE() {
         >
           <Image
             src="/img/1.png"
-            alt="Fyr Lois"
+            alt="Fyr Lois Instituto de Inglés"
             width={190}
             height={76}
             priority

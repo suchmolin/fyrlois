@@ -86,7 +86,8 @@ export default function DescEtapasAE() {
               >
                 <Image
                   src="/img/AE/nino.webp"
-                  alt="niños"
+                  alt="niño de 4 años sonriendo y levantando el dedo pulgar de la mano izquierda en señal de 
+aprobación del curso de ingles"
                   layout="fill"
                   objectFit="contain"
                   unoptimized
@@ -124,7 +125,8 @@ export default function DescEtapasAE() {
           img="/img/AE/azul.png"
           items={Desciptions.elementary}
           id="elementarydesc"
-        />
+          alt="niña de 8 años con cabello negro ondulado, sonriendo por el curso ingles"
+          />
         <CardDescEtapaAE
           icon="/img/AE/iconohello.png"
           color="#fbd874"
@@ -132,6 +134,9 @@ export default function DescEtapasAE() {
           img="/img/AE/rosada.webp"
           items={Desciptions.highSchool}
           id="highschooldesc"
+          alt="adolescente femenina de 17 años con los brazos cruzados y cabello marron, sonriendo por
+el curso de inglés
+"
         />
       </div>
     </div>

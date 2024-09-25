@@ -10,6 +10,7 @@ export default function CardDescEtapaAE({
   img,
   items,
   id,
+  alt
 }) {
   return (
     <div id={id} className="w-full flex">
@@ -60,7 +61,7 @@ export default function CardDescEtapaAE({
           >
             <Image
               src={img}
-              alt="niños"
+              alt={alt}
               layout="fill"
               objectFit="contain"
               unoptimized
