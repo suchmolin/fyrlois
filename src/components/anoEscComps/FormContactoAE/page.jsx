@@ -4,7 +4,6 @@ import { useState } from "react"
 import SendedMsg from "../SendedMsg/page"
 
 export default function FormContactoAE() {
-  const urlOdoo = process.env.URL_ODOO_CRM
   const [sended, setSended] = useState(false)
 
   const sendGS = async (e) => {

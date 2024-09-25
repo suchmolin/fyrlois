@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Fyr Lois",
   description: "Fyr Lois Language Institute",
+  alternates: {
+    canonical: "/",
+  },
 }
 
 export default function RootLayout({ children }) {
