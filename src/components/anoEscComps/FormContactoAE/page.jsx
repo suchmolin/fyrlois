@@ -11,6 +11,7 @@ export default function FormContactoAE() {
     const formData = new FormData(e.target)
     const data = Object.fromEntries(formData)
     data.modality = data.sede !== "online" ? "presencial" : "online"
+    document.getElementById("BtnEnviar").disabled = true
 
     const resp = await fetch("/api/fetchOdoo", {
       method: "POST",
@@ -22,6 +23,7 @@ export default function FormContactoAE() {
 
     document.getElementById("myForm").reset()
     setSended(true)
+    document.getElementById("BtnEnviar").disabled = false
 
     setTimeout(() => {
       setSended(false)
@@ -102,7 +104,7 @@ export default function FormContactoAE() {
         <input type="hidden" value="Fyr Lois English Institute" name="from" />
         <button
           id="BtnEnviar"
-          className="w-fit px-24 mt-3 bg-[#fbd874] text-lg py-2 rounded-xl hover:shadow-xl transition-all duration-500"
+          className="w-fit px-24 mt-3 bg-[#fbd874] text-lg py-2 rounded-xl hover:shadow-xl transition-all duration-500 disabled:opacity-50 disabled:cursor-wait"
         >
           Enviar
         </button>
